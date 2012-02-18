@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [ -d $1 ]
+then
+    echo Already exists.
+    exit 1
+fi
+
+mkdir -p $1
+cd $1
 git init
 touch README
 git add README
