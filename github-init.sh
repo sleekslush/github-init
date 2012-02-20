@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ -z $1 ]
+then
+    echo Usage: $0 path/to/github/repo
+    exit 1
+fi
+
 if [ -d $1 ]
 then
     echo Already exists.
