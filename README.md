@@ -1,7 +1,7 @@
 # The GitHub init script you've been waiting for
 
 ## Configuration
-First thing's first. You'll need to set a git config value that sets your username.
+First thing's first. You'll need to add a git config value that sets your GitHub username.
 
     $ git config --global github.user YOUR_GITHUB_USERNAME
     
