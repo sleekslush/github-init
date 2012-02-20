@@ -8,7 +8,7 @@ fi
 
 if [ -d $1 ]
 then
-    echo Already exists.
+    echo $1 already exists
     exit 1
 fi
 
