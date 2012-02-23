@@ -1,7 +1,10 @@
 # The GitHub init script you've been waiting for
 
-## Configuration
-First thing's first. You'll need to add a git config value that sets your GitHub username.
+## First thing's first
+[Create a github repository](https://github.com/repositories/new).
+
+## Configuration (only do this once)
+Next, you'll need to add a git config value that sets your GitHub username.
 
     $ git config --global github.user YOUR_GITHUB_USERNAME
     
@@ -15,7 +18,7 @@ Make the script executable.
 
     $ chmod +x github-init.sh
     
-## Usage
+## Usage (do this every time!)
 The script is pretty simple. You can execute the script without arguments to see the usage.
 
     $ ./github-init.sh
